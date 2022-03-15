@@ -27,5 +27,5 @@ marital_status = input("Type here your Marital Status [Single, Married, Divorced
 while marital_status != 'Single' and marital_status != 'Married' and marital_status!='Divorced' and marital_status!='Widowed':
     marital_status = input(f'{marital_status} is not a valid option, you can only choose between: Single, Married, Divorced and Widowed.\nPlease type again your option: ')
 
-print(f'Thank you! Here is the information we saved in our system:\nYour name: {name}\nYour age: {age} years old.\nYou recieve {salary} USD per month.\nYour sex: {sex}.\nYour actual marital status: {marital_status}. ')
+print(f'Thank you! Here is the information we saved in our system:\nYour name: {name}\nYour age: {age} years old.\nYou recieve {salary} USD per month.\nYour sex: {sex}.\nYour current marital status: {marital_status}. ')
 
