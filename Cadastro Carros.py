@@ -1,3 +1,7 @@
+# Cadastro de Carros pode Modelo, Cor, Ano e Marca
+#O programa também deixa você alterar algum dado já diigtado
+#Ele também não deixa digitar um ano que não seja um número
+
 class Carros():
     def __init__(self, Modelo, Cor, Ano, Marca):
         self.Modelo = Modelo
